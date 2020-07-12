@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+    outline:none;
+}
+.navbar{
+    background: #16a085;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.carousel-inner img{
+   
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+.carousel-item{
+    height: 80vh;
+    font-family: 'Grenze Gotisch', cursive;
+  
+}
+
+.l-ssection{
+    background:linear-gradient(60deg,#2C3335,#333945,#616C6F,#99AAAB);
+}
+
+.login-1 {
+    color:#000;
+    background:#67E6DC;
+    font-family: 'Roboto', sans-serif;
+}
+.sign-1{
+     color:#000;
+     font-family: 'Roboto', sans-serif;
+     background: #dfe6e9;
+}
+.more-info {
+    font-family: 'Fondamento', cursive;
+}
+.SEC2{
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Images/bg1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.underline {
+    width: 300px;
+    height: 10px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.underline1 {
+    width: 290px;
+    height: 8px;
+    
+}
+.underline2 {
+    width: 180px;
+    height: 5px;
+    
+}
+.icon-pro{
+    color:#1BCA9B;
+    font-size: 50px;
+}
+
+.SEC3{
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(Images/SEC3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.SEC8{
+
+width: 100%;
+height:auto;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url(Images/SEC4.jpg);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+
+@media screen and (max-width:1024px){
+    .carousel-item{
+        height: auto;
+      
+    }
+}
